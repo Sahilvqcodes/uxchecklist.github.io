@@ -1793,7 +1793,7 @@ body,
       /* Abs positioning makes it not take up vert space  */
       position: absolute;
       bottom: -10px;
-      left: 3px; }
+      left: 8px; white-space: nowrap}
       .title span:not(.span--iconTitle) {
         /* Rotate from top left corner (not default) */
         -webkit-transform-origin: 0 0;
@@ -1898,7 +1898,8 @@ body,
 .img_box {max-width: 100px;}  
 .footerColumn #toolbar {text-align: left;}
 #footer {justify-content: flex-start;} 
-.footerColumn {padding: 0 15px;width: 50%;margin: 15px 0;text-align: left;}   
+.footerColumn {padding: 0 15px;width: 50%;margin: 15px 0;text-align: left;}  
+#checklist-form {padding:15px;}
 }
 @media screen and (max-width: 767px) {
 .books_design {justify-content: center;} 
@@ -1908,5 +1909,18 @@ body,
 .advertising_list .add_img {margin: 0 auto;}
 .book_box{max-width: 120px;} 
 .img_box {max-width: 100%;padding: 0 0 10px;}
+#checklist-form {padding:15px;}
+.card-content label {font-size: 1.2em;font-weight: 600; margin-bottom: 5px;}    
+.title {padding: 6px 10px;font-weight: bold;font-size: 18px;}
+.card-content p {font-size: 14px;padding-right: 0;}
+.cards {padding: 1.25rem 10px;}
+.card-content {padding: 0 10px 0 15px;}
+#header h1 {font-size: 15px;font-weight: bold;margin-right: 0;}
+div#sharebox {margin: 0 9px;}
+#gdrivebox:empty{display: none;}
+#header {display: flex;flex-wrap: nowrap;justify-content: space-between;align-items: center;}
+#title {margin: 0;}
+div#sharebox ul li{max-height: 20px;}
+#footer{padding-bottom: 120px;}
 }
 /*new css end here*/
